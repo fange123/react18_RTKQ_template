@@ -24,7 +24,7 @@
 
 - 🚀 采用最新技术找开发：React18、React-Router v6、React-Hooks、TypeScript、Vite2
 - 🚀 采用 Vite2 作为项目开发、打包工具（配置了 Gzip 打包、跨域代理、打包预览工具……）
-- 🚀 整个项目集成了 TypeScript （完全是为了想学习 🤣）
+- 🚀 整个项目集成了 TypeScript
 - 🚀 使用 redux 做状态管理，集成 immer、react-redux、redux-persist 开发
 - 🚀 集成了两套状态管理，master 分支使用的是 redux || redux-toolkit 分支使用的是 redux-toolkit
 - 🚀 使用 TypeScript 对 Axios 整个二次封装 （全局错误拦截、常用请求封装、全局请求 Loading、取消重复请求……）
@@ -39,10 +39,8 @@
 - **Clone：**
 
 ```text
-# Gitee
-git clone https://gitee.com/laramie/Hooks-Admin.git
 # GitHub
-git clone https://github.com/HalseySpicy/Hooks-Admin.git
+git clone https://github.com/fange123/react18_RTKQ_template
 ```
 
 - **Install：**
@@ -121,7 +119,7 @@ Geeker-Admin
 │  ├─ language            # 语言国际化
 │  ├─ layouts             # 框架布局
 │  ├─ routers             # 路由管理
-│  ├─ redux               # redux store
+│  ├─ store               # redux store
 │  ├─ styles              # 全局样式
 │  ├─ typings             # 全局 ts 声明
 │  ├─ utils               # 工具库
@@ -171,22 +169,3 @@ Geeker-Admin
 - FastMock： https://www.fastmock.site/
 - EasyMock：https://mock.mengxuegu.com/
 
-### 九、微信交流群
-
-> 扫描以下二维码，加入群聊 🤪
-
-|                                           微信群二维码                                            |
-| :-----------------------------------------------------------------------------------------------: |
-| <img src="https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220811092339.png" width=200> |
-
-### 十、捐赠 🍵
-
-> **如果你正在使用这个项目或者喜欢这个项目的，可以通过以下方式支持我**
-
-- **Star、Fork、Watch** 一键三连 🚀🚀
-
-- 通过 **微信、支付宝** 一次性捐款，够维护访问地址就行 🤣🤣
-
-|                                                         微信                                                          |                                                        支付宝                                                         |
-| :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220610144145.png" alt="Wechat QRcode" width=170> | <img src="https://iamge-1259297738.cos.ap-chengdu.myqcloud.com/img/20220610144200.png" alt="Alipay QRcode" width=170> |
